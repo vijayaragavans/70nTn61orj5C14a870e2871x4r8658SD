@@ -1,0 +1,281 @@
+2014/03/23 17:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=gii
+---
+2014/03/23 17:04:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=gii
+---
+2014/03/23 18:25:10 [warning] [application] Failed to set unsafe attribute "rememberMe" of "LoginForm".
+in C:\wamp\www\testdrive\protected\controllers\SiteController.php (92)
+in C:\wamp\www\testdrive\index.php (13)
+2014/03/23 18:27:42 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "main".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('main', Array, true)
+#1 C:\wamp\www\testdrive\protected\controllers\SiteController.php(50): CController->render('main', Array)
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/testdrive/
+---
+2014/03/24 18:45:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('login')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/login
+---
+2014/03/25 18:31:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('login')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/login
+---
+2014/03/25 18:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('login')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/login
+---
+2014/03/25 18:31:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/twitter.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/twitter.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/img/twitter.png
+HTTP_REFERER=http://localhost/testdrive/index.php/
+---
+2014/03/25 18:31:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/beclouds.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/beclouds.pn...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/img/beclouds.png
+HTTP_REFERER=http://localhost/testdrive/index.php/
+---
+2014/03/25 18:31:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/google.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/google.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/img/google.png
+HTTP_REFERER=http://localhost/testdrive/index.php/
+---
+2014/03/25 18:31:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/connect_facebook.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/connect_fac...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/img/connect_facebook.png
+HTTP_REFERER=http://localhost/testdrive/index.php/
+---
+2014/03/25 18:31:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/linkedin.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/linkedin.pn...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/img/linkedin.png
+HTTP_REFERER=http://localhost/testdrive/index.php/
+---
+2014/03/25 18:32:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.tbl_users' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_users`.
+in C:\wamp\www\testdrive\index.php (13)
+2014/03/25 18:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/twitter.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/twitter.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/img/twitter.png
+HTTP_REFERER=http://localhost/testdrive/index.php/
+---
+2014/03/25 18:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/google.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/google.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/img/google.png
+HTTP_REFERER=http://localhost/testdrive/index.php/
+---
+2014/03/25 18:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/linkedin.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/linkedin.pn...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/img/linkedin.png
+HTTP_REFERER=http://localhost/testdrive/index.php/
+---
+2014/03/25 18:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/connect_facebook.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/connect_fac...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/img/connect_facebook.png
+HTTP_REFERER=http://localhost/testdrive/index.php/
+---
+2014/03/25 18:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/beclouds.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('img/beclouds.pn...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/img/beclouds.png
+HTTP_REFERER=http://localhost/testdrive/index.php/
+---
+2014/03/25 18:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('login')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/login
+---
+2014/03/25 18:37:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('users')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/users/
+---
+2014/03/25 18:37:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('users')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/users
+---
+2014/03/25 18:39:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\wamp\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('user')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php/user
+---
+2014/03/25 18:57:38 [error] [exception.CException] exception 'CException' with message 'SiteController contains improperly nested widget tags in its view "C:\wamp\www\testdrive\protected\views\site\index.php". A CActiveForm widget does not have an endWidget() call.' in C:\wamp\www\yii\framework\web\CBaseController.php:102
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\tes...', Array, true)
+#1 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#2 C:\wamp\www\testdrive\protected\controllers\SiteController.php(50): CController->render('index', Array)
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/testdrive/index.php
+---
+2014/03/25 19:05:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('register')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('register')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/register')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/testdrive/index.php/site/register
+---
+2014/03/25 19:14:10 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.user_name" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2158): CComponent->__get('user_name')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(LoginForm), 'user_name')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(LoginForm), 'user_name', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(655): CHtml::activeTextField(Object(LoginForm), 'user_name', Array)
+#4 C:\wamp\www\testdrive\protected\views\site\index.php(143): CActiveForm->textField(Object(LoginForm), 'user_name')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\tes...')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\tes...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\tes...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#9 C:\wamp\www\testdrive\protected\controllers\SiteController.php(50): CController->render('index', Array)
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#11 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#16 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/testdrive/index.php
+---
+2014/03/25 19:22:40 [warning] [application] Failed to set unsafe attribute "user_name" of "LoginForm".
+in C:\wamp\www\testdrive\protected\controllers\SiteController.php (60)
+in C:\wamp\www\testdrive\index.php (13)
+2014/03/25 19:22:40 [warning] [application] Failed to set unsafe attribute "user_email" of "LoginForm".
+in C:\wamp\www\testdrive\protected\controllers\SiteController.php (60)
+in C:\wamp\www\testdrive\index.php (13)
+2014/03/25 19:22:40 [warning] [application] Failed to set unsafe attribute "user_password" of "LoginForm".
+in C:\wamp\www\testdrive\protected\controllers\SiteController.php (60)
+in C:\wamp\www\testdrive\index.php (13)
+2014/03/25 19:22:40 [error] [exception.CException] exception 'CException' with message 'LoginForm and its behaviors do not have a method or closure named "register".' in C:\wamp\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\testdrive\protected\controllers\SiteController.php(62): CComponent->__call('register', Array)
+#1 C:\wamp\www\testdrive\protected\controllers\SiteController.php(62): LoginForm->register()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/testdrive/index.php
+HTTP_REFERER=http://localhost/testdrive/index.php
+---
+2014/03/25 19:22:58 [warning] [application] Failed to set unsafe attribute "user_name" of "LoginForm".
+in C:\wamp\www\testdrive\protected\controllers\SiteController.php (60)
+in C:\wamp\www\testdrive\index.php (13)
+2014/03/25 19:22:58 [warning] [application] Failed to set unsafe attribute "user_email" of "LoginForm".
+in C:\wamp\www\testdrive\protected\controllers\SiteController.php (60)
+in C:\wamp\www\testdrive\index.php (13)
+2014/03/25 19:22:58 [warning] [application] Failed to set unsafe attribute "user_password" of "LoginForm".
+in C:\wamp\www\testdrive\protected\controllers\SiteController.php (60)
+in C:\wamp\www\testdrive\index.php (13)
+2014/03/25 19:22:58 [error] [exception.CException] exception 'CException' with message 'LoginForm and its behaviors do not have a method or closure named "register".' in C:\wamp\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\testdrive\protected\controllers\SiteController.php(62): CComponent->__call('register', Array)
+#1 C:\wamp\www\testdrive\protected\controllers\SiteController.php(62): LoginForm->register()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\testdrive\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/testdrive/index.php
+HTTP_REFERER=http://localhost/testdrive/index.php
+---
