@@ -13,6 +13,8 @@
  */
 class Users extends CActiveRecord
 {
+
+
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -100,6 +102,18 @@ class Users extends CActiveRecord
 	
 	public function register()
 	{
-		return "asdasd";
+		$command = Yii::app()->db->createCommand();	
+		
+		$current_date = date(' Y-m-d H:i:s');
+		$pwd = md5($this->user_password);
+		$command->insert('tbl_users', array(
+		    'user_name'=>"$this->user_name",
+		    'user_email'=>"$this->user_email",
+		    'user_password'=>"$pwd",
+		    'user_created_on'=>"$current_date"
+		));
+
+		return Yii::app()->db->getLastInsertID();
+		
 	}
 }

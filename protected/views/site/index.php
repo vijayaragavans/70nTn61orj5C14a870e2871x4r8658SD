@@ -160,7 +160,7 @@
                     <div class="row-fluid">
                       <div class="input-wrap m-full-width">
 						<div class="row">
-							<?php echo $form->textField($signup,'user_password'); ?>
+							<?php echo $form->passwordField($signup,'user_password'); ?>
 							<?php echo $form->error($signup,'user_password'); ?>
 						</div>
                       </div>

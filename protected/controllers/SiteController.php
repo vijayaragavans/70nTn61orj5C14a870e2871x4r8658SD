@@ -61,8 +61,6 @@ class SiteController extends Controller
 			// validate user input and redirect to the previous page if valid
 			$data = $signup->register();
 			
-			var_dump( $data );
-			die;
 		}
 		
 		// display the login form
